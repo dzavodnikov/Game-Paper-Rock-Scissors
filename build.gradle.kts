@@ -17,3 +17,11 @@ dependencies {
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
+
+application {
+    mainClass.set("pro.zavodnikov.prs.Main")
+}
+
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
