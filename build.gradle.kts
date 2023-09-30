@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
 }
 
 tasks.getByName<Test>("test") {
